@@ -1,0 +1,16 @@
+
+{% extends "webscrap/header.html" %}
+
+
+{% block content %}
+
+    {% for t in res %}
+        <ul>
+
+            <li href=t.0>{{t.1}}</li>
+
+        </ul>
+    {% endfor %}
+
+
+{% endblock %}
