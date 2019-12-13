@@ -3,8 +3,28 @@
 
 
   {% block content %}
- <p> hey, I am Sakib. Working on STACK OVERFLOW SCRAPPING</p>
+<p> Hello. This is a very normalized site on scraping data related to "ANDROID" from <a href="https://www.stackoverflow.com">'StackOverflow'</a>,
+    which is a Question-Answering site normally related to programming world. This is one of the most popular, if not the
+    most popular site in the world for programming problems' knowledge sharing.</p>
 
-{% include "webscrap/includes/htmlsnippet.html" %}
+<p> In this site, I can see the <a href="/voted/">10 MOST VOTED</a>  and  <a href="/newest/">10 NEWEST</a>  questions(Q or A) at any time
+     with an [ANDROID] and so I might be able to stay relevant to the most specific questions at any time. There is also a new feature
+    in this website which is yet to be implemented, and I am trying to find out a suitable new feature which might be interesting. So,
+    at the left side you can find only three tabs to explore currently. We can get which tab does what from the names of teh tabs respectively.</p>
+
+<p> <a href="/voted/">10 MOST VOTED QUESTIONS</a> : In this tab, anyone can find the 10 most voted questions on the tag [android] from this moment
+    to last one week time. Upon clicking the question title this will pop-up another new tab and redirect to the main question
+    thread on <a href="https://www.stackoverflow.com">StackOverflow</a></p>
+<p> <a href="/newest/">10 NEWEST QUESTIONS</a> : In this tab, anyone can find the 10 newest questions on the tag [android] from this moment
+    to last one week time. Upon clicking the question title this will pop-up another new tab and redirect to the main question
+    thread on <a href="https://www.stackoverflow.com">StackOverflow</a></p>
+
+<p> <a href="/latest/">10 LATEST QUESTIONS(NOT COMPLETED YET)</a> : This is my new feature. In this tab, I will sort out from the latest questions on StackOverflow
+    , the last posted 10 Questions first. And among them, I will display which questions are with the tag of [android].
+    If there isn't any, nothing will show up then. And, if there are some questions, anyone can go directly to the question
+    thread. </p>
+
+<p> To access this site Locally, you must have Python3 and Django installed on your system. Since I have not published the
+    site on the internet, any user of this site have to access this locally.</p>
 
         {% endblock %}
