@@ -1,0 +1,2 @@
+Lunar Lander is a game. This .ipynb file implements a Reinforcement Learning agent which can self play this game
+with astounding accuracy.
